@@ -1,0 +1,19 @@
+- defaultTab: nodes
+  description: This is a sample-job2.22
+  executionEnabled: true
+  group: sample-group2
+  id: fed5908d-adfa-436c-881e-8748c8321d88
+  loglevel: INFO
+  name: sample-job
+  nodeFilterEditable: false
+  plugins:
+    ExecutionLifecycle: null
+  scheduleEnabled: true
+  sequence:
+    commands:
+    - description: sample job2
+      exec: echo sample
+    keepgoing: false
+    strategy: node-first
+  uuid: fed5908d-adfa-436c-881e-8748c8321d88
+
