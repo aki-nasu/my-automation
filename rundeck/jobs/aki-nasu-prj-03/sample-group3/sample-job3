@@ -1,0 +1,17 @@
+- defaultTab: nodes
+  description: sampleaa
+  executionEnabled: true
+  group: sample-group3
+  loglevel: INFO
+  name: sample-job3
+  nodeFilterEditable: false
+  plugins:
+    ExecutionLifecycle: null
+  scheduleEnabled: true
+  sequence:
+    commands:
+    - description: sample
+      exec: echo  sample
+    keepgoing: false
+    strategy: node-first
+
