@@ -1,10 +1,7 @@
 - defaultTab: nodes
-  description: |-
-    This is a sample job.1111
-    modify,modify
+  description: jobaaaa
   executionEnabled: true
   group: sample-group
-  id: 014af7bf-d9c3-4269-a10b-ef4d017caf0e
   loglevel: INFO
   name: sample-job
   nodeFilterEditable: false
@@ -17,5 +14,4 @@
       exec: echo sample
     keepgoing: false
     strategy: node-first
-  uuid: 014af7bf-d9c3-4269-a10b-ef4d017caf0e
 
